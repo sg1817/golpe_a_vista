@@ -8,67 +8,65 @@
 </head>
 <body>
 
-  <!-- CABEÇALHO: igual em todas as páginas -->
-  <header>
+  <div class="cabecalho">
     <h1>Golpe à Vista</h1>
-    <nav>
+    <div class="menu">
       <a href="main.html">Início</a>
       <a href="tipos.html">Tipos de golpe</a>
       <a href="treino.html">Treino</a>
       <a href="cai-no-golpe.html">Caí no golpe</a>
       <a href="glossario.html">Glossário</a>
       <a href="contato.html">Contato</a>
-    </nav>
-    <!-- Os botões chamam funções do arquivo js/fonte.js -->
+    </div>
+
     <button onclick="aumentar()">A+</button>
     <button onclick="diminuir()">A-</button>
-  </header>
+  </div>
 
-  <main>
+  <div class="principal">
     <h2>É golpe ou é verdade?</h2>
     <p>Leia a mensagem e clique na sua resposta.</p>
     <p id="placar">Pontos: 0</p>
 
-    <article class="questao">
+    <div class="questao">
       <h3>Mensagem 1</h3>
       <blockquote>“Seu Pix de R$ 500 foi bloqueado. Libere em 10 minutos: bit.ly/libera-pix”</blockquote>
       <button onclick="acertou('Tem pressa e link encurtado. Banco não libera valor por link.')">É golpe</button>
       <button onclick="errou('Tem pressa e link encurtado. Banco não libera valor por link.')">É verdade</button>
-    </article>
+    </div>
 
-    <article class="questao">
+    <div class="questao">
       <h3>Mensagem 2</h3>
       <blockquote>“Seu código de verificação é 482913. Não compartilhe.” (chegou logo depois de você pedir login no app)</blockquote>
       <button onclick="errou('Você mesmo pediu o código e não tem link. Só não passe o código para ninguém.')">É golpe</button>
       <button onclick="acertou('Você mesmo pediu o código e não tem link. Só não passe o código para ninguém.')">É verdade</button>
-    </article>
+    </div>
 
-    <article class="questao">
+    <div class="questao">
       <h3>Mensagem 3</h3>
       <blockquote>“Aqui é da central do banco. Para cancelar a compra suspeita, informe o código que vai chegar por SMS.”</blockquote>
       <button onclick="acertou('Banco nunca pede código por telefone.')">É golpe</button>
       <button onclick="errou('Banco nunca pede código por telefone.')">É verdade</button>
-    </article>
+    </div>
 
-    <article class="questao">
+    <div class="questao">
       <h3>Mensagem 4</h3>
       <blockquote>“Vaga home office, R$ 300 por dia. Faça um Pix de R$ 50 para o kit de treinamento.”</blockquote>
       <button onclick="acertou('Emprego de verdade não cobra para você começar.')">É golpe</button>
       <button onclick="errou('Emprego de verdade não cobra para você começar.')">É verdade</button>
-    </article>
+    </div>
 
-    <article class="questao">
+    <div class="questao">
       <h3>Mensagem 5</h3>
       <blockquote>“Sua mensalidade vence amanhã. Consulte no portal do aluno, pelo app que você já usa.”</blockquote>
       <button onclick="errou('Não tem link nem pede dados.')">É golpe</button>
       <button onclick="acertou('Não tem link nem pede dados.')">É verdade</button>
-    </article>
+    </div>
+  </div>
 
-  </main>
-
-  <footer>
+  <div class="rodape">
     <p>Projeto da disciplina de Front-end. As mensagens de exemplo são fictícias.</p>
-  </footer>
+  </div>
 
   <script src="js/fonte.js"></script>
   <script src="js/quiz.js"></script>

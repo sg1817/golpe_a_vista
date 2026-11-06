@@ -8,27 +8,27 @@
 </head>
 <body>
 
-  <!-- CABEÇALHO: igual em todas as páginas -->
-  <header>
+  <div class="cabecalho">
     <h1>Golpe à Vista</h1>
-    <nav>
+    <div class="menu">
       <a href="main.html">Início</a>
       <a href="tipos.html">Tipos de golpe</a>
       <a href="treino.html">Treino</a>
       <a href="cai-no-golpe.html">Caí no golpe</a>
       <a href="glossario.html">Glossário</a>
       <a href="contato.html">Contato</a>
-    </nav>
-    <!-- Os botões chamam funções do arquivo js/fonte.js -->
+    </div>
+
     <button onclick="aumentar()">A+</button>
     <button onclick="diminuir()">A-</button>
-  </header>
+  </div>
 
-  <main>
+  <div class="principal">
     <h2>Contato</h2>
     <p>Quer sugerir um golpe para a lista? Escreva aqui.</p>
 
     <!-- onsubmit chama a função validar(). Se ela devolver false, o envio é cancelado. -->
+
     <form onsubmit="return validar()">
       <p>
         <label for="nome">Nome:</label><br>
@@ -44,11 +44,11 @@
       </p>
       <button type="submit">Enviar</button>
     </form>
-  </main>
+  </div>
 
-  <footer>
+  <div class="rodape">
     <p>Projeto da disciplina de Front-end. As mensagens de exemplo são fictícias.</p>
-  </footer>
+  </div>
 
   <script src="js/fonte.js"></script>
   <script src="js/formulario.js"></script>
