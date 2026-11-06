@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Caí no golpe - Golpe à Vista</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO: igual em todas as páginas -->
+  <header>
+    <h1>Golpe à Vista</h1>
+    <nav>
+      <a href="main.html">Início</a>
+      <a href="tipos.html">Tipos de golpe</a>
+      <a href="treino.html">Treino</a>
+      <a href="cai-no-golpe.html">Caí no golpe</a>
+      <a href="glossario.html">Glossário</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <!-- Os botões chamam funções do arquivo js/fonte.js -->
+    <button onclick="aumentar()">A+</button>
+    <button onclick="diminuir()">A-</button>
+  </header>
+
+  <main>
+    <h2>Caí no golpe, e agora?</h2>
+    <p>Siga os passos na ordem e vá marcando o que já fez.</p>
+
+    <form>
+      <p><label><input type="checkbox"> 1. Avisei meu banco pelo número oficial</label></p>
+      <p><label><input type="checkbox"> 2. Troquei as senhas das contas</label></p>
+      <p><label><input type="checkbox"> 3. Guardei prints e comprovantes</label></p>
+      <p><label><input type="checkbox"> 4. Registrei um boletim de ocorrência</label></p>
+      <p><label><input type="checkbox"> 5. Avisei meus contatos (se foi WhatsApp clonado)</label></p>
+    </form>
+  </main>
+
+  <footer>
+    <p>Projeto da disciplina de Front-end. As mensagens de exemplo são fictícias.</p>
+  </footer>
+
+  <script src="js/fonte.js"></script>
+</body>
+</html>

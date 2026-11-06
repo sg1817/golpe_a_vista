@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tipos de golpe - Golpe à Vista</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO: igual em todas as páginas -->
+  <header>
+    <h1>Golpe à Vista</h1>
+    <nav>
+      <a href="main.html">Início</a>
+      <a href="tipos.html">Tipos de golpe</a>
+      <a href="treino.html">Treino</a>
+      <a href="cai-no-golpe.html">Caí no golpe</a>
+      <a href="glossario.html">Glossário</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <!-- Os botões chamam funções do arquivo js/fonte.js -->
+    <button onclick="aumentar()">A+</button>
+    <button onclick="diminuir()">A-</button>
+  </header>
+
+  <main>
+    <h2>Tipos de golpe</h2>
+    <p>Clique em um canal para ir direto ao golpe:</p>
+
+    <!-- href="#whatsapp" leva até o elemento que tem id="whatsapp" -->
+    <p class="atalhos">
+      <a href="#whatsapp">WhatsApp</a>
+      <a href="#telefone">Telefone</a>
+      <a href="#sms">SMS</a>
+      <a href="#email">E-mail</a>
+    </p>
+
+    <section id="whatsapp">
+      <h3>WhatsApp clonado</h3>
+      <p>O golpista usa o seu número e pede dinheiro aos seus contatos.</p>
+      <ul>
+        <li>Pede Pix com urgência</li>
+        <li>A pessoa não atende ligação</li>
+      </ul>
+    </section>
+
+    <section id="telefone">
+      <h3>Falsa central do banco</h3>
+      <p>Ligam falando de uma compra suspeita e pedem senha ou código.</p>
+      <ul>
+        <li>Pedem o código que chegou por SMS</li>
+        <li>Mandam instalar um aplicativo</li>
+      </ul>
+    </section>
+
+    <section id="sms">
+      <h3>Link falso por SMS</h3>
+      <p>Mensagem sobre encomenda ou boleto com um link para um site falso.</p>
+      <ul>
+        <li>Link estranho ou encurtado</li>
+        <li>Prazo muito curto</li>
+      </ul>
+    </section>
+
+    <section id="email">
+      <h3>Vaga de emprego falsa</h3>
+      <p>Prometem ganho alto e pedem um pagamento para você começar.</p>
+      <ul>
+        <li>Salário alto para pouco esforço</li>
+        <li>Cobram “taxa” ou “kit”</li>
+      </ul>
+    </section>
+
+    <h3>Comparativo</h3>
+    <table>
+      <thead>
+        <tr><th>Golpe</th><th>O que pedem</th><th>O que fazer</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>WhatsApp clonado</td><td>Pix</td><td>Ligar para a pessoa</td></tr>
+        <tr><td>Falsa central</td><td>Senha e códigos</td><td>Desligar e ligar para o número do cartão</td></tr>
+        <tr><td>Link por SMS</td><td>Dados pessoais</td><td>Não clicar</td></tr>
+        <tr><td>Vaga falsa</td><td>Pagamento antecipado</td><td>Pesquisar a empresa</td></tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>Projeto da disciplina de Front-end. As mensagens de exemplo são fictícias.</p>
+  </footer>
+
+  <script src="js/fonte.js"></script>
+</body>
+</html>

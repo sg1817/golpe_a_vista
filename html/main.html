@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Início - Golpe à Vista</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO: igual em todas as páginas -->
+  <header>
+    <h1>Golpe à Vista</h1>
+    <nav>
+      <a href="main.html">Início</a>
+      <a href="tipos.html">Tipos de golpe</a>
+      <a href="treino.html">Treino</a>
+      <a href="cai-no-golpe.html">Caí no golpe</a>
+      <a href="glossario.html">Glossário</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <!-- Os botões chamam funções do arquivo js/fonte.js -->
+    <button onclick="aumentar()">A+</button>
+    <button onclick="diminuir()">A-</button>
+  </header>
+
+  <main>
+    <section class="destaque">
+      <h2>Aprenda a reconhecer um golpe antes de cair nele</h2>
+      <p>Veja os golpes mais comuns, treine com mensagens de exemplo e descubra o que fazer se já caiu em um.</p>
+      <p><a class="botao" href="treino.html">Fazer o treino</a></p>
+    </section>
+
+    <section>
+      <h2>Golpe da semana: Pix com pressa</h2>
+      <p>O golpista diz que o seu dinheiro vai ser bloqueado e pede que você aja rápido. A pressa é o sinal mais importante. Pare e confirme pelo canal oficial do banco.</p>
+    </section>
+
+    <section>
+      <h2>Por onde começar</h2>
+      <ol>
+        <li><a href="tipos.html">Conhecer os tipos de golpe</a></li>
+        <li><a href="treino.html">Testar se você identifica um golpe</a></li>
+        <li><a href="cai-no-golpe.html">Ver o que fazer se já caiu</a></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto da disciplina de Front-end. As mensagens de exemplo são fictícias.</p>
+  </footer>
+
+  <script src="js/fonte.js"></script>
+</body>
+</html>

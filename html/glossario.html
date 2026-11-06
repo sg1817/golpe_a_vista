@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glossário - Golpe à Vista</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO: igual em todas as páginas -->
+  <header>
+    <h1>Golpe à Vista</h1>
+    <nav>
+      <a href="main.html">Início</a>
+      <a href="tipos.html">Tipos de golpe</a>
+      <a href="treino.html">Treino</a>
+      <a href="cai-no-golpe.html">Caí no golpe</a>
+      <a href="glossario.html">Glossário</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <!-- Os botões chamam funções do arquivo js/fonte.js -->
+    <button onclick="aumentar()">A+</button>
+    <button onclick="diminuir()">A-</button>
+  </header>
+
+  <main>
+    <h2>Glossário</h2>
+
+    <!-- <dl> = lista de definições, <dt> = termo, <dd> = explicação -->
+    <dl>
+      <dt>Phishing</dt>
+      <dd>Golpe que usa mensagem ou site falso para roubar seus dados.</dd>
+
+      <dt>Engenharia social</dt>
+      <dd>Enganar a pessoa usando pressa, medo ou confiança, em vez de invadir o computador.</dd>
+
+      <dt>Chave Pix</dt>
+      <dd>Identificação da sua conta (CPF, e-mail ou telefone) para receber Pix.</dd>
+
+      <dt>Autenticação em dois fatores</dt>
+      <dd>Uma segunda confirmação, além da senha, para entrar em uma conta.</dd>
+    </dl>
+  </main>
+
+  <footer>
+    <p>Projeto da disciplina de Front-end. As mensagens de exemplo são fictícias.</p>
+  </footer>
+
+  <script src="js/fonte.js"></script>
+</body>
+</html>
