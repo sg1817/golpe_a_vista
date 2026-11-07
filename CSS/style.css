@@ -1,4 +1,5 @@
 /* GERAL */
+
 body {
     font-family: Arial, sans-serif;
     font-size: 18px;
@@ -41,3 +42,39 @@ body {
     padding: 20px;
 }
 
+.rodape {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+/* BLOCOS */
+
+.destaque {
+    background-color: #2222;
+    color: white;
+    padding: 25px;
+    border-left: 10px solid #ffc933;
+}
+
+.botao {
+    background-color: #ffc933;
+    color: #222222;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button {
+    background-color: #ffc933;
+    border: 2px solid #222222;
+    padding: 8px 14px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* TIPOS DE GOLPE */
+
+.atalho a {
+
+}
