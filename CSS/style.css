@@ -21,3 +21,23 @@ body {
     margin: 0 0 10px 0;
     color: #ffc933;
     }
+
+.menu a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #ffc933;
+    text-decoration: underline;
+}
+
+/* CONTEÚDO E RODAPÉ */
+
+.principal {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
