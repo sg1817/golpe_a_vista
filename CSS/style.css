@@ -1,0 +1,23 @@
+/* GERAL */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: #f2f2f2;
+    color: #222222;
+    margin: 0;
+    }
+
+/* CABEÇALHO */
+
+.cabecalho {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-bottom: 8px solid #ffc933;
+    }
+
+.cabecalho h1 {
+    font-size: 1.4em;
+    margin: 0 0 10px 0;
+    color: #ffc933;
+    }
