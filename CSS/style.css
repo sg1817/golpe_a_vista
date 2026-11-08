@@ -76,5 +76,23 @@ button {
 /* TIPOS DE GOLPE */
 
 .atalho a {
-
+    background-color: #2222;
+    color: white; 
+    padding: 6px 12px;
+    margin-right: 8px;
+    text-decoration: none;
 }
+
+.golpe {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-top: 6px solid #d62839;
+}
+
+/* :target pega o elemento que o link acabou de apontar (#whatsapp, #sms...) */
+
+.golpe:target {
+    background-color: #fff3c4;
+}
+
