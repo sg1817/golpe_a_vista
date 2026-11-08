@@ -49,3 +49,28 @@ Citações (blockquote) nas mensagens do treino
 Formulário com campos de texto, área de texto e botão
 
 Links internos entre páginas e âncoras (#whatsapp, #sms...)
+
+# CSS #
+
+Identidade visual com faixa amarela de alerta
+
+Layout centralizado com largura máxima
+
+Estilo de botões, tabela, cards e formulário
+
+:hover nos links do menu
+:target para destacar o golpe escolhido na página de tipos
+
+# JavaScript #
+
+fonte.js: botões A+ e A- que aumentam e diminuem o tamanho da letra
+
+quiz.js: conta os pontos do quiz e mostra se a resposta está certa ou errada
+
+formulario.js: confere se nome, e-mail (com @) e mensagem foram preenchidos
+
+# Como executar #
+
+-Baixe ou clone a pasta do projeto.
+-Abra o arquivo main.html em qualquer navegador (Chrome, Edge, Firefox).
+
