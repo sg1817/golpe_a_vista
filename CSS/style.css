@@ -95,4 +95,31 @@ button {
 .golpe:target {
     background-color: #fff3c4;
 }
+table { border-collapse: collapse; width: 100%; background-color: white; }
+th, td { border: 1px solid #9999; padding: 8px; text-align: left; }
+th { background-color: #2222; color: white;}
 
+/* TREINO */
+
+.questao {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+blockquote {
+    border-left: 6px solid #ffc933;
+    margin: 10px 0;
+    padding: 100px 15px;
+    background-color: #f2f2f2;
+}
+#placar {font-weight: bold;}
+
+/* GLOSSÁRIO E FORMULÁRIO */
+
+dt { font-weight: bold; margin-top: 15px; }
+dd { margin-left: 20px; }
+input[type=text], select, textarea {
+    padding: 6px;
+    font-size: 1em;
+}

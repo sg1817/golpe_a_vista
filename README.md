@@ -9,3 +9,43 @@ Sobre o projeto
 Muitas pessoas, principalmente quem tem pouca familiaridade com tecnologia, caem em golpes porque as informações de prevenção estão espalhadas e em linguagem difícil. O Golpe à Vista reúne os golpes mais comuns no Brasil (Pix, falsa central do banco, link por SMS, WhatsApp clonado e vaga de emprego falsa) em um só lugar, com linguagem simples e um treino interativo.
 
 Público-alvo: usuários comuns de celular e internet, com foco em pessoas menos acostumadas com tecnologia e em estudantes.
+
+# Páginas #
+
+## main.html ##	
+Página inicial, golpe da semana e caminhos para o resto do site
+
+## tipos.html ##
+Os tipos de golpe, atalhos por canal e tabela comparativa
+
+## treino.html ##	
+Quiz “É golpe ou é verdade?” com pontuação
+
+## cai-no-golpe.html ##	
+Checklist do que fazer depois de cair em um golpe
+
+## glossario.html ##	
+Termos explicados em linguagem simples
+
+## contato.html ##
+Formulário para sugerir golpes, com validação
+
+A navegação entre as páginas é feita pelo menu que aparece no topo de todas elas.
+
+# Funcionalidades #
+
+## HTML ##
+
+Estrutura da página com div e classes
+
+Títulos, parágrafos, listas ordenadas e não ordenadas
+
+Tabela comparativa de golpes
+
+Lista de definições (dl, dt, dd) no glossário
+
+Citações (blockquote) nas mensagens do treino
+
+Formulário com campos de texto, área de texto e botão
+
+Links internos entre páginas e âncoras (#whatsapp, #sms...)
