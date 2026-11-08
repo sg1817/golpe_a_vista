@@ -1,4 +1,7 @@
 function validar() {
+    
+    document.getElementById("sucesso").textContent = "";
+
     var nome = document.getElementById("nome").value;
     var email = document.getElementById("email").value;
     var mensagem = document.getElementById("mensagem").value;
@@ -18,6 +21,12 @@ if (mensagem == "") {
     return false;
 }
 
-alert("Mensagem enviada com sucesso!");
+document.getElementById("sucesso").textContent = "Mensagem enviada com sucesso!";
+
+
+document.getElementById("nome").value = "";
+document.getElementById("email").value = "";
+document.getElementById("mensagem").value = "";
+
 return false;
 }
