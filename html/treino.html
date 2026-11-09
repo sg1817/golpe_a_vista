@@ -28,40 +28,41 @@
     <p>Leia a mensagem e clique na sua resposta.</p>
     <p id="placar">Pontos: 0</p>
     <progress id="barra" value="0" max="5"></progress>
+    <button onclick="reiniciar()">Reiniciar</button>
 
     <div class="questao">
       <h3>Mensagem 1</h3>
       <blockquote>“Seu Pix de R$ 500 foi bloqueado. Libere em 10 minutos: bit.ly/libera-pix”</blockquote>
-      <button onclick="acertou('Tem pressa e link encurtado. Banco não libera valor por link.')">É golpe</button>
-      <button onclick="errou('Tem pressa e link encurtado. Banco não libera valor por link.')">É verdade</button>
+      <button onclick="acertou(0, 'Tem pressa e link encurtado. Banco não libera valor por link.')">É golpe</button>
+      <button onclick="errou(0, 'Tem pressa e link encurtado. Banco não libera valor por link.')">É verdade</button>
     </div>
 
     <div class="questao">
       <h3>Mensagem 2</h3>
       <blockquote>“Seu código de verificação é 482913. Não compartilhe.” (chegou logo depois de você pedir login no app)</blockquote>
-      <button onclick="errou('Você mesmo pediu o código e não tem link. Só não passe o código para ninguém.')">É golpe</button>
-      <button onclick="acertou('Você mesmo pediu o código e não tem link. Só não passe o código para ninguém.')">É verdade</button>
+      <button onclick="errou(1, 'Você mesmo pediu o código e não tem link. Só não passe o código para ninguém.')">É golpe</button>
+      <button onclick="acertou(1, 'Você mesmo pediu o código e não tem link. Só não passe o código para ninguém.')">É verdade</button>
     </div>
 
     <div class="questao">
       <h3>Mensagem 3</h3>
       <blockquote>“Aqui é da central do banco. Para cancelar a compra suspeita, informe o código que vai chegar por SMS.”</blockquote>
-      <button onclick="acertou('Banco nunca pede código por telefone.')">É golpe</button>
-      <button onclick="errou('Banco nunca pede código por telefone.')">É verdade</button>
+      <button onclick="acertou(2, 'Banco nunca pede código por telefone.')">É golpe</button>
+      <button onclick="errou(2, 'Banco nunca pede código por telefone.')">É verdade</button>
     </div>
 
     <div class="questao">
       <h3>Mensagem 4</h3>
       <blockquote>“Vaga home office, R$ 300 por dia. Faça um Pix de R$ 50 para o kit de treinamento.”</blockquote>
-      <button onclick="acertou('Emprego de verdade não cobra para você começar.')">É golpe</button>
-      <button onclick="errou('Emprego de verdade não cobra para você começar.')">É verdade</button>
+      <button onclick="acertou(3, 'Emprego de verdade não cobra para você começar.')">É golpe</button>
+      <button onclick="errou(3, 'Emprego de verdade não cobra para você começar.')">É verdade</button>
     </div>
 
     <div class="questao">
       <h3>Mensagem 5</h3>
       <blockquote>“Sua mensalidade vence amanhã. Consulte no portal do aluno, pelo app que você já usa.”</blockquote>
-      <button onclick="errou('Não tem link nem pede dados.')">É golpe</button>
-      <button onclick="acertou('Não tem link nem pede dados.')">É verdade</button>
+      <button onclick="errou(4, 'Não tem link nem pede dados.')">É golpe</button>
+      <button onclick="acertou(4, 'Não tem link nem pede dados.')">É verdade</button>
     </div>
   </div>
 
