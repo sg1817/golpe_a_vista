@@ -2,6 +2,8 @@ function validar() {
     
     document.getElementById("sucesso").textContent = "";
 
+    setTimeout(apagarMensagem, 3000);
+
     var nome = document.getElementById("nome").value;
     var email = document.getElementById("email").value;
     var mensagem = document.getElementById("mensagem").value;
@@ -29,4 +31,8 @@ document.getElementById("email").value = "";
 document.getElementById("mensagem").value = "";
 
 return false;
+}
+
+function apagarMensagem() {
+    document.getElementById("sucesso").textContent = "";
 }

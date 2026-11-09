@@ -50,7 +50,7 @@ Formulário com campos de texto, área de texto e botão
 
 Links internos entre páginas e âncoras (#whatsapp, #sms...)
 
-# CSS #
+## CSS ##
 
 Identidade visual com faixa amarela de alerta
 
@@ -61,7 +61,7 @@ Estilo de botões, tabela, cards e formulário
 :hover nos links do menu
 :target para destacar o golpe escolhido na página de tipos
 
-# JavaScript #
+## JavaScript ##
 
 fonte.js: botões A+ e A- que aumentam e diminuem o tamanho da letra
 
@@ -69,8 +69,18 @@ quiz.js: conta os pontos do quiz e mostra se a resposta está certa ou errada
 
 formulario.js: confere se nome, e-mail (com @) e mensagem foram preenchidos
 
-# Como executar #
+## Como executar ##
 
 -Baixe ou clone a pasta do projeto.
 -Abra o arquivo main.html em qualquer navegador (Chrome, Edge, Firefox).
 
+## Limitações ##
+O formulário de contato não envia os dados para lugar nenhum, porque o projeto não tem servidor. Ele apenas valida os campos e mostra uma mensagem.
+
+No quiz é possível clicar mais de uma vez na mesma pergunta e somar pontos.
+
+O checklist de “Caí no golpe” não guarda o progresso ao sair da página.
+
+## Observações ##
+Todas as mensagens de exemplo do treino são fictícias.
+As informações do site são educativas e gerais. Em caso de golpe real, procure o seu banco pelo número oficial e registre um boletim de ocorrência.
