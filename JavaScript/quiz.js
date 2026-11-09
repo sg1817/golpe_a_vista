@@ -12,4 +12,5 @@ function errou(explicacao) {
 
 function atualizarPlacar() {
     document.getElementById("placar").textContent = "Pontos: " + pontos;
+    document.getElementById("barra").value = pontos;
 }
