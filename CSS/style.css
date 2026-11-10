@@ -151,3 +151,8 @@ progress {
     height: 20px;
     margin-bottom: 15px;
 }
+
+#resultado {
+    font-weight: bold;
+    font-size: 1.2em;
+}
