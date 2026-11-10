@@ -7,6 +7,7 @@ function validar() {
     var nome = document.getElementById("nome").value;
     var email = document.getElementById("email").value;
     var mensagem = document.getElementById("mensagem").value;
+    contar();
 
 if (nome == "") {
     alert("Digite seu nome:");
@@ -35,4 +36,9 @@ return false;
 
 function apagarMensagem() {
     document.getElementById("sucesso").textContent = "";
+}
+
+function contar() {
+    var quantiode = document.getElementById("mensagem").value.length;
+    document.getElementById("contador").textContent = quantiode + "/200";
 }

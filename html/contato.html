@@ -40,7 +40,8 @@
       </p>
       <p>
         <label for="mensagem">O que aconteceu?</label><br>
-        <textarea id="mensagem" rows="5" cols="40"></textarea>
+        <textarea id="mensagem" rows="5" cols="40" maxlength="200" oninput="contar()"></textarea>
+        <p id="contador">0/200</p>
       </p>
       <button type="submit">Enviar</button>
       <p id="sucesso"></p>
