@@ -23,15 +23,28 @@ body {
     color: #ffc933;
     }
 
+.menu {
+    margin-bottom: 12px;
+}
+
 .menu a {
     color: white;
-    margin-right: 15px;
+    margin-right: 12px;
     text-decoration: none;
 }
 
 .menu a:hover {
     color: #ffc933;
     text-decoration: underline;
+}
+
+.menu a.ativo {
+    color: #222222;
+    padding: 4px 8px;
+    background-color: #ffc933;
+    font-weight: bold;
+    border: 2px solid #222222;
+    
 }
 
 /* CONTEÚDO E RODAPÉ */
@@ -124,10 +137,14 @@ input[type=text], select, textarea {
     font-size: 1em;
 }
 
+/* MENSAGENS DE SUCESSO */
+
 #sucesso {
     color: #1f8a4c;
     font-weight: bold;
 }
+
+/* PROGRESS BAR */
 
 progress {
     width: 100%;
