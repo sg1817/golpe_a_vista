@@ -167,3 +167,27 @@ progress {
     font-weight: bold;
     font-size: 1.2em;
 }
+
+/*  MODO ESCURO  */
+body.escuro {
+  background-color: #1e1e1e;
+  color: #eeeeee;
+}
+body.escuro .questao,
+body.escuro .golpe,
+body.escuro .caixa-dica,
+body.escuro table {
+  background-color: #2b2b2b;
+}
+body.escuro blockquote {
+  background-color: #3a3a3a;
+}
+body.escuro .golpe:target {
+  background-color: #5a4a10;
+}
+body.escuro .atalhos a {
+  background-color: #3a3a3a;
+}
+body.escuro .principal a:not(.botao) {
+  color: #ffc933;
+}

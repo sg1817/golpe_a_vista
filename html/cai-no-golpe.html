@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Severino Sérgio De brito Lélis Netto">
   <title>Caí no golpe - Golpe à Vista</title>
+  <link rel="icon" href="../Imagens/alerta.ico" type="image/x-icon">
   <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
@@ -21,26 +23,31 @@
   
     <button onclick="aumentar()">A+</button>
     <button onclick="diminuir()">A-</button>
+    <button onclick="trocarTema()">Modo escuro</button>
   </div>
 
   <div class="principal">
     <h2>Caí no golpe, e agora?</h2>
     <p>Siga os passos na ordem e vá marcando o que já fez.</p>
 
+    <progress id="barra" value="0" max="5"></progress>
+    <p id="texto-progresso">0 de 5 passos completados</p>
+
     <form>
-      <p><label><input type="checkbox"> 1. Avisei meu banco pelo número oficial</label></p>
-      <p><label><input type="checkbox"> 2. Troquei as senhas das contas</label></p>
-      <p><label><input type="checkbox"> 3. Guardei prints e comprovantes</label></p>
-      <p><label><input type="checkbox"> 4. Registrei um boletim de ocorrência</label></p>
-      <p><label><input type="checkbox"> 5. Avisei meus contatos (se foi WhatsApp clonado)</label></p>
+      <p><label><input type="checkbox" id="passo1" onchange="contarPassos()"> 1. Avisei meu banco pelo número oficial</label></p>
+      <p><label><input type="checkbox" id="passo2" onchange="contarPassos()"> 2. Troquei as senhas das contas</label></p>
+      <p><label><input type="checkbox" id="passo3" onchange="contarPassos()"> 3. Guardei prints e comprovantes</label></p>
+      <p><label><input type="checkbox" id="passo4" onchange="contarPassos()"> 4. Registrei um boletim de ocorrência</label></p>
+      <p><label><input type="checkbox" id="passo5" onchange="contarPassos()"> 5. Avisei meus contatos (se foi WhatsApp clonado)</label></p>
     </form>
   </div>
->
+
   <div class="rodape">
     <p>Projeto da disciplina de Front-end. As mensagens de exemplo são fictícias.</p>
   </div>
 
   <script src="../JavaScript/fonte.js"></script>
+  <script src="../JavaScript/checklist.js"></script>
 
 </body>
 </html>
